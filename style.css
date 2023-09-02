@@ -46,7 +46,7 @@ nav>a:hover {
 
 .content-box-left {
     flex: 1;
-    background-image: url(/assets/cafe-9d922fe9.jpg);
+    background-image: url(assets/cafe.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ nav>a:hover {
 
 .about__content-box-right {
     flex: 1;
-    background-image: url(/assets/ice-cream-1600x1600-eb21cdb2.jpg);
+    background-image: url(assets/ice-cream-1600x1600.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
