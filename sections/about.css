@@ -1,0 +1,144 @@
+.Info {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 100px 0;
+}
+
+.Info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Info-card img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+.Info-card .Info-title {
+    margin: 0;
+    font-family: var(--jost-);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-me);
+    color: #3a3a3b;
+    line-height: 1.875rem;
+    margin-bottom: 1rem;
+}
+
+.Info-card .Info-subtitle {
+    margin: 0;
+    font-family: var(--jost-);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-me);
+    color: #3a3a3b;
+    line-height: 1.875rem;
+    min-width: 30ch;
+    margin-bottom: 1rem;
+}
+
+.about {
+    width: 100%;
+}
+
+.about__content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background-color: var(--white-color);
+}
+
+.about__content-box-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.about__content-box-left .subtitle {
+    font-family: var(--jost-);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-sm);
+    color: #bd9576;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.about__content-box-left .title {
+    font-size: var(--font-lg);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3.3125rem;
+    font-family: var(--poppins-);
+    color: #101020;
+    margin: 0;
+}
+
+.about__content-box-left .description {
+    font-family: var(--poppins-);
+    font-weight: 400;
+    font-size: var(--font-sm);
+    font-style: normal;
+    line-height: 1.75rem;
+    color: #3a3a3b;
+    margin: 0;
+    text-align: center;
+    min-width: 45ch;
+    padding: 0 20px;
+}
+
+.about__content-box-left .button {
+    font-family: var(--jost-);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-sm);
+    line-height: 1.875rem;
+    background-color: var(--white-color);
+    border: 1px solid #bd9576;
+    color: var(--black-color);
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.about__content-box-left .button:hover {
+    background-color: #bd9576;
+    color: var(--white-color);
+}
+
+.about__content-box-right {
+    flex: 1;
+    background-image: url(/assets/ice-cream-1600x1600.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56.25rem;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+.about-image {
+    margin: 0;
+    padding: 0;
+}

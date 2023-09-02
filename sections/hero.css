@@ -1,0 +1,117 @@
+.hero {
+    display: flex;
+    background-color: black;
+}
+
+.content-box-left {
+    flex: 1;
+    background-image: url(/assets/cafe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56.25rem; /* 900px rem birimi olarak */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.25rem 1.875rem; /* 20px 30px rem birimi olarak */
+}
+
+.content-box-left .subtitle {
+    font-size: var(--font-sm);
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    font-family: var(--jost-font);
+    color: #ffffff;
+}
+
+.content-box-left .title {
+    font-size: var(--font-lg);
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+}
+
+.content-box-left .button {
+    font-size: var(--font-sm);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    font-family: var(--jost-font);
+    color: var(--black-color);
+    width: 9.375rem; /* İçeriğe bağlı genişlik */
+    height: auto; /* İçeriğe bağlı yükseklik */
+    padding: 0.3125rem 0.625rem; /* 5px 10px rem birimi olarak */
+    background-color: #ffffff; /* Uygun bir arka plan rengi */
+    border: none;
+    cursor: pointer;
+}
+
+.content-box-left .button:hover {
+    background-color: var(--black-color);
+    color: #fff;
+}
+
+.content-box-right {
+    padding: 1.25rem 1.875rem; /* 20px 30px rem birimi olarak */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.content-box-right .subtitle {
+    color: #bd9576;
+    font-size: var(--font-sm);
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.5rem;
+    font-family: var(--jost-font);
+    padding-bottom: 1.5625rem; /* 25px rem birimi olarak */
+}
+
+.content-box-right .title {
+    font-size: var(--font-lg);
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 1.5625rem; /* 25px rem birimi olarak */
+    color: #101020;
+}
+
+.content-box-right .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-me);
+    color: #3a3a3b;
+    line-height: 3rem;
+    margin: 0;
+    padding-bottom: 1.5625rem; /* 25px rem birimi olarak */
+}
+
+.content-box-right .button {
+    font-size: var(--font-sm);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    font-family: var(--jost-font);
+    color: var(--black-color);
+    width: auto; /* İçeriğe bağlı genişlik */
+    height: auto; /* İçeriğe bağlı yükseklik */
+    padding: 0.3125rem 0.625rem; /* 5px 10px rem birimi olarak */
+    background-color: #ffffff; /* Uygun bir arka plan rengi */
+    border: 1px solid #bd9576;
+    cursor: pointer;
+}
+
+.content-box-right .button:hover {
+    background-color: #bd9576;
+    color: #ffffff;
+    cursor: pointer;
+}

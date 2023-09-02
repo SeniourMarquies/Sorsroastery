@@ -1,0 +1,41 @@
+/* Header */
+header {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Bar */
+nav {
+    height: 5rem;
+    background-color: var(--white-color);
+    color: white;
+    font-size: var(--font-xsm);
+    font-style: normal;
+    font-weight: 500;
+    font-family: var(--jost-);
+    line-height: 1.875rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   gap: 1.1rem;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+nav .logo {
+    font-size: var(--font-me);
+    font-weight: 700;
+    font-family: var(--jost-);
+    line-height: 1.3125rem;
+    color: #101020;
+    font-style: normal;
+}
+
+nav .logo:hover {
+    color: #101020;
+}
+
+nav > a:hover {
+    color: var(--orange-color);
+}
